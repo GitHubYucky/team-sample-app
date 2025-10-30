@@ -1,0 +1,10 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+categories:
+  - title: 🚀 Features
+    labels: [feat, enhancement]
+  - title: 🐛 Fixes
+    labels: [fix, bug]
+  - title: 🧹 Chore/Docs/Test
+    labels: [chore, docs, test]
+change-template: "- $TITLE (#$NUMBER) @$AUTHOR"
