@@ -1,9 +1,5 @@
-# チーム開発用 CODEOWNERS 設定
-# 各ディレクトリごとに自動でレビュー担当者を指定
+# デフォルトのレビュア
+* @GitHubVucky @yukiondev-prog
 
-# 例：フロントとバックエンドで分ける場合
-/frontend/  @frontend-lead
-/api/       @backend-lead
-
-# すべてのファイルに特定メンバーをレビュー担当にする場合
-* @team-lead
+# ドキュメントはドキュ班
+docs/* @GitHubVucky
