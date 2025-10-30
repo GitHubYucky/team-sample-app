@@ -1,0 +1,12 @@
+name: ✨ Feature request
+description: 機能追加の提案
+title: "feat: <概要>"
+labels: [enhancement]
+body:
+  - type: textarea
+    id: purpose
+    attributes: { label: 目的, description: 何のため？ }
+    validations: { required: true }
+  - type: textarea
+    id: scope
+    attributes: { label: スコープ, placeholder: "やること/やらないこと" }
