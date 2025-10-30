@@ -1,1 +1,1 @@
-# team-sample-app
+#sample project
