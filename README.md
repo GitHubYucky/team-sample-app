@@ -1,9 +1,7 @@
-
-this is B
-
-
 ## 更新 A:
-#sample project
-## 更新A: これはAの変更です
-## 更新B: これはBの変更です
 
+#sample project
+
+## 更新 A: これは A の変更です
+
+## 更新 B: これは B の変更です
