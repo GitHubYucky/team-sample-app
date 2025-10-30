@@ -1,0 +1,16 @@
+name: 🐛 Bug report
+description: バグ報告
+title: "bug: <概要>"
+labels: [bug]
+body:
+  - type: textarea
+    id: describe
+    attributes: { label: 現象, description: 何が起きたか }
+    validations: { required: true }
+  - type: textarea
+    id: reproduce
+    attributes: { label: 再現手順, placeholder: "1) ...\n2) ..." }
+    validations: { required: true }
+  - type: input
+    id: env
+    attributes: { label: 環境, placeholder: "OS/ブラウザ/Nodeなど" }
